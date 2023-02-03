@@ -7,7 +7,11 @@ const p2 = document.querySelector('.p2')
 p2.addEventListener('click',() => {
     alert('Hello World !')
 })
-
+const p3 = document.querySelector('.p3')
+p3.addEventListener('click',()=>{
+    p1.style.backgroundColor = 'black'
+    alert('ZDAROVA BRATVAAAAAAAAAA')
+})
 const list = document.querySelectorAll('li')
 list.forEach(item=>{
     item.addEventListener('mouseenter',(ev)=>{
